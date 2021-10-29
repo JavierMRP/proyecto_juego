@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Rompecabezas</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel = "stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+ <div class = "contener">
+ 	<div class="nav-bg">
+		<nav class="navegacion-principal contenedor">
+			<a> Rompecabezas Sonriente </a>
+			<a id="reloj">Tiempo</h5>
+		</nav>
+	</div>
+	<svg width="1400" height="1000" id="entorno">
+		<g id="fondo"><image xlink:href="img/rompecabezas.png" width="1200" height="800" x="200" y="100"></g>
+    	<g class="padre" id="0"><image xlink:href="img/1.png" class="movil"></g>
+    	<g class="padre" id="1"><image xlink:href="img/2.png" class="movil"></g>
+    	<g class="padre" id="2"><image xlink:href="img/3.png" class="movil"></g>
+    	<g class="padre" id="3"><image xlink:href="img/4.png" class="movil"></g>
+    	<g class="padre" id="4"><image xlink:href="img/5.png" class="movil"></g>
+    	<g class="padre" id="5"><image xlink:href="img/6.png" class="movil"></g>
+    	<g class="padre" id="6"><image xlink:href="img/7.png" class="movil"></g>
+    	<g class="padre" id="7"><image xlink:href="img/8.png" class="movil"></g>
+    	<g class="padre" id="8"><image xlink:href="img/9.png" class="movil"></g>
+    	<g class="padre" id="9"><image xlink:href="img/10.png" class="movil"></g>
+    	<g class="padre" id="10"><image xlink:href="img/11.png" class="movil"></g>
+    	<g class="padre" id="11"><image xlink:href="img/12.png" class="movil"></g>
+    	<g class="padre" id="12"><image xlink:href="img/13.1.png" class="movil"></g>
+    	<g class="padre" id="13"><image xlink:href="img/14.png" class="movil"></g>
+    	<g class="padre" id="14"><image xlink:href="img/15.png" class="movil"></g>
+    	<g class="padre" id="15"><image xlink:href="img/16.png" class="movil"></g>
+    	<g class="padre" id="16"><image xlink:href="img/17.png" class="movil"></g>
+    	<g class="padre" id="17"><image xlink:href="img/18.png" class="movil"></g>
+    	<g class="padre" id="18"><image xlink:href="img/19.png" class="movil"></g>
+    	<g class="padre" id="19"><image xlink:href="img/20.png" class="movil"></g>
+      	<g class="padre" id="20"><image xlink:href="img/21.png" class="movil"></g>
+    	<g class="padre" id="21"><image xlink:href="img/22.png" class="movil"></g>
+    	<g class="padre" id="22"><image xlink:href="img/23.png" class="movil"></g>
+	    <g class="padre" id="23"><image xlink:href="img/24.png" class="movil"></g>
+    	<g class="padre" id="24"><image xlink:href="img/25.png" class="movil"></g>
+	    <g class="padre" id="25"><image xlink:href="img/26.png" class="movil"></g>
+	    <g class="padre" id="26"><image xlink:href="img/27.png" class="movil"></g>
+    	<g class="padre" id="27"><image xlink:href="img/28.png" class="movil"></g>
+    	<g class="padre" id="28"><image xlink:href="img/29.png" class="movil"></g>
+	    <g class="padre" id="29"><image xlink:href="img/30.png" class="movil"></g>
+	    <g class="padre" id="30"><image xlink:href="img/31.png" class="movil"></g>
+	    <g class="padre" id="31"><image xlink:href="img/32.png" class="movil"></g>
+	    <g class="padre" id="32"><image xlink:href="img/33.png" class="movil"></g>
+	    <g class="padre" id="33"><image xlink:href="img/34.png" class="movil"></g>
+	    <g class="padre" id="34"><image xlink:href="img/35.png" class="movil"></g>
+	    <g class="padre" id="35"><image xlink:href="img/36.png" class="movil"></g>
+	    <g class="padre" id="36"><image xlink:href="img/37.png" class="movil"></g>
+	    <g class="padre" id="37"><image xlink:href="img/38.png" class="movil"></g>
+	    <g class="padre" id="38"><image xlink:href="img/39.png" class="movil"></g> 
+	    <g class="padre" id="39"><image xlink:href="img/40.png" class="movil"></g>
+	    <g class="padre" id="40"><image xlink:href="img/41.png" class="movil"></g>
+	    <g class="padre" id="41"><image xlink:href="img/42.png" class="movil"></g>
+	    <g class="padre" id="42"><image xlink:href="img/43.png" class="movil"></g>
+	    <g class="padre" id="43"><image xlink:href="img/44.png" class="movil"></g>
+    	<g class="padre" id="44"><image xlink:href="img/45.png" class="movil"></g>
+	    <g class="padre" id="45"><image xlink:href="img/46.png" class="movil"></g>
+	    <g class="padre" id="46"><image xlink:href="img/47.png" class="movil"></g>
+	    <g class="padre" id="47"><image xlink:href="img/48.png" class="movil"></g>
+	    <g class="padre" id="48"><image xlink:href="img/49.png" class="movil"></g>
+	    <g class="padre" id="49"><image xlink:href="img/50.png" class="movil"></g>
+	    <g class="padre" id="50"><image xlink:href="img/51.png" class="movil"></g>
+	    <g class="padre" id="51"><image xlink:href="img/52.png" class="movil"></g>
+	    <g class="padre" id="52"><image xlink:href="img/53.png" class="movil"></g>
+	    <g class="padre" id="53"><image xlink:href="img/54.png" class="movil"></g>
+    </svg>
+
+ 	<div class="nav-bg-fin">
+		<nav class="principal-fin -fin">
+			<h1>CAMALEÓN SONRIENTE CUIDA TUS DIENTES</h1>
+			<h1>Universidad Antonio Nariño</h1>
+			<h1>Facultad de Odontología</h1>
+			<h1> </h1>
+			<h1>INTEGRANTES</h1>
+			<h1>Aura María Calderón Ramírez,  Ana Teresina Loaiza Puentes,  Ana María Manrique Celis</h1>
+			<h1> </h1>
+			<h1>ASESORES</h1>
+			<h1>Doctora Yeily Thomas Alvarado, Doctor Adolfo Pérez</h1>
+			<h1> </h1>
+			<h1>CREADORES DEL JUEGO</h1>
+			<h1>Desarrollador Javier Mauricio Ramírez, Diseñadora Hanna Perez</h1>
+			<h1>2021</h1>
+		</nav>
+	</div>
+
+</div>
+
+<div class = "overlay" id = "overlay">
+	<div class = "popup" id = "popup">
+		<h4> ROMPECABEZAS </h4>
+		<h3> Escribe tu nombre y edad </h3>
+		<form action = "" method ="post">
+			<div class = "contenedor-inputs">
+
+				<input class="box" type = "text" id = "nombre" placeholder = "Nombre">
+  				<input class="box" type="number" id="edad" name="quantity" min="1" max="20" placeholder="Edad">
+  				<select class = "box" type="text" name="cars" id="cars" placeholder="curso">
+  				<option  style="display:none" style = "text-align: center">        Selecciona tu curso</option>
+    			<option>Primero</option>
+    			<option>Segundo</option>
+    			<option>Tercero</option>
+    			<option>Cuarto</option>
+    			<option>Quinto</option>
+				<input type="radio" id="male" name="gender" value="male" placeholder="uno">
+				<label for="male">Niño</label><br>
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="male">Niña</label><br>
+			</div>
+
+			<input type="submit " class="btn-submit" readonly = "readonly" id = "btn-submit" value="Jugar">
+		</form>
+	</div>
+</div>
+
+<div class = "gana" id = "gana">
+	<div class = "final" id="fin">
+		<h1> GANASTE </h1>
+		<form action="">
+			<div class = "contenedor">
+				<h2 id = "temp"> </h2>
+			</div>
+		</form>
+	</div>
+</div>  
+
+
+<div id="ex1" class="modal">
+	<div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" class="close">&times;</button>
+            <h4 class="modal-title">Recomendación</h4>
+          </div>
+          <div class="modal-body">
+          	<form>
+          		<p id = "texto_dato">  </p>
+          	</form>
+  			<img id="imagen"  src = "img/6.png" alt="" class="alineacion" >
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default">Continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<audio id="win" src="media/Friends.mp3"></audio>
+<audio id="gano" src="media/victory-sonic.mp3"></audio>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>

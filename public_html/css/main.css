@@ -1,0 +1,15 @@
+/*Hoja de estilos*/
+#entorno {
+	display: block;
+	margin: 0 auto;
+}
+
+#fondo{
+	opacity: 0.3;
+}
+
+  #wrapper {
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
